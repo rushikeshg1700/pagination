@@ -27,6 +27,41 @@
 .App-link {
   color: #61dafb;
 }
+body {
+  background: black; color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.list {
+  border: 1px solid #fff;
+  padding: 5px;
+}
+  
+.pagination {
+  display: flex;
+  border: 1px solid #fff;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.pagination button {
+  padding: 10px;
+}
+.page-item {
+  padding: 10px;
+  background-color: white;
+}
+  
+.active {
+  background: blue;
+  color: #fff;
+  border: 1px solid #fff;
+}
 
 @keyframes App-logo-spin {
   from {
